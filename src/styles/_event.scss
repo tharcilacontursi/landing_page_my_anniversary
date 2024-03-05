@@ -1,0 +1,41 @@
+.event{
+    padding: 80px 0;
+
+    &--boasvindas{
+        background-image: linear-gradient(rgb(245, 203, 244) , rgb(131, 197, 228));
+    }
+
+    &--detalhesdoevento{
+        background-image: linear-gradient(rgb(131, 197, 228), rgb(243, 242, 166));
+    }
+
+    &--confirmesuapresenca{
+        background-image: linear-gradient(rgb(243, 242, 166), rgb(153, 246, 153));
+    }
+
+    &--image-left{
+        .container{
+            flex-direction: row-reverse;
+        }}
+
+    .container{
+        display: flex;
+        gap: 40px;
+    }
+
+    &__image{
+        max-width: 360px;
+    }
+    &__details{
+
+        &__title{
+            margin-bottom: 16px;
+            margin-bottom: 16px;
+        }
+
+        &__description {
+            line-height: 22px;
+        }
+    }
+
+}

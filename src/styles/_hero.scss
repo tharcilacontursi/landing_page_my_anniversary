@@ -54,7 +54,7 @@
         }
     }
 
-    .button{
+    .button {
         padding: 12px;
         font-size: 18px;
         font-weight: bold;
@@ -64,5 +64,8 @@
         background-color: pink;
         color: purple;
         border-radius: 3px;
-}
+        cursor: pointer; 
+        transition: background-color 0.3s; 
+    }
+    
 }

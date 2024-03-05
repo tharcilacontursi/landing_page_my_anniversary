@@ -16,7 +16,7 @@
     <header class="hero">
         <div class="container">
             <p class="hero__text">
-                Você está convidado para minha festa de aniversário que será em <span id="contador"></span>
+                Você está convidado para minha festa de aniversário que será em: <br> <span id="contador"></span>
             </p>
         </div>
         <div class="infos-bar">
@@ -31,7 +31,7 @@
             <a href="#" class="button">Confirme sua presença!</a>
         </div>
     </header>
-    <section class="event event__boas-vindas">
+    <section class="event event--boasvindas">
         <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">
@@ -45,11 +45,45 @@ Mal posso esperar para reunir todos vocês e celebrar a alegria da vida e da ami
 Então, por favor, reserve a data e junte-se a mim nesta festa incrível!
                 </p>
             </div>
-            <img src="./images/cake.jpg" alt="bolo de aniversario">
-
+            <img class="event__image" src="./images/cake.jpg" alt="bolo de aniversario">
         </div>
     </section>
-    
+    <section class="event event--detalhesdoevento event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Detalhes do Evento:
+                </h2>
+                <p class="evente__details__description">
+                    Abaixo, você encontrará todas as informações importantes sobre o evento para garantir que você possa participar da festa sem problemas:<br>
+                    Data: Domingo, 10 de Novembro de 2024<br>
+                    Hora: A partir das 17:00<br>
+                    Local: Rua Nome da minha rua - Bairro - Cidade<br>
+                    Como Chegar: Para chegar à minha casa, siga as seguintes instruções: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eos adipisci atque fuga? <br>
+                    Estacionamento: Estacionamento estará disponível dentro da residencia.
+                </p>
+            </div>
+            <img class="event__image" src="./images/drinks.jpg" alt="drinks da festa">
+        </div>
+    </section>
+    <section class="event event--confirmesuapresenca">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Confirme sua presença!
+                </h2>
+                <p class="evente__details__description">
+Estou muito animada para comemorar meu aniversário com todos vocês! Por favor, reserve um momento para confirmar sua presença clicando no link no incio da pagina. Sua participação é muito importante para mim e mal posso esperar para celebrar este momento especial juntos.<br>
+Se você tiver alguma dúvida ou precisar de mais informações sobre o evento, não hesite em entrar em contato comigo. Estou ansioso para nos reunirmos e criar memórias incríveis juntos!
+<br><br>
+<b>Com carinho, <br>
+Tharcila.</b>
+                </p>
+            </div>
+            <img class="event__image" src="./images/gifts.jpg" alt="presente de aniversario">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>  
 <script src="./scripts/main.js"></script>
 </body>
 </html>
