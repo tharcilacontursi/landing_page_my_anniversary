@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniversário da Tharcila</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Você está convidado para minha festa de aniversário que será em <span id="contador"></span>
+            </p>
+        </div>
+        <div class="infos-bar">
+            <ul class="infos-bar__infos">
+                <li class="infos-bar__infos__item"> 
+                    <b>Local:</b> Rua Nome da minha rua - Bairro - Cidade
+                </li>
+                <li class="infos-bar__infos__item"> 
+                    <b>Data:</b> 10/11/2024
+                </li>
+            </ul>
+            <a href="#" class="button">Confirme sua presença!</a>
+        </div>
+    </header>
+    <section class="event event__boas-vindas">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Bem-vindo à Celebração!
+                </h2>
+                <p class="evente__details__description">
+                    Queridos amigos e familiares,
+É com grande alegria que convido vocês para celebrar o meu aniversário! Estou emocionado em compartilhar este momento especial com todos vocês e criar memórias duradouras juntos.
+Preparem-se para uma noite repleta de risadas, música, boa comida e momentos inesquecíveis. Será uma festa para lembrar!
+Mal posso esperar para reunir todos vocês e celebrar a alegria da vida e da amizade. Sua presença tornará este dia ainda mais especial.
+Então, por favor, reserve a data e junte-se a mim nesta festa incrível!
+                </p>
+            </div>
+            <img src="./images/cake.jpg" alt="bolo de aniversario">
+
+        </div>
+    </section>
     
 <script src="./scripts/main.js"></script>
 </body>
